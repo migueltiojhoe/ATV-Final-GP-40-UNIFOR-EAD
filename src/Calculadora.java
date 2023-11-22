@@ -1,5 +1,6 @@
 public class Calculadora {
 
+    // Método de somar e subtrair iserido por Miguel Angelo
     // Método para somar dois números
     public int somar(int a, int b) {
         return a + b;

@@ -16,6 +16,19 @@
     public int multiplicar(int a, int b) {
         return a * b;
     }
+//Metodo para dividir dois numeros
+//Inserido por Inacio Menezes
+
+    public double Dividir(int num,int den){
+    //verifica se o numerador e menos menor ou igual a zero
+    if (den != 0){
+        return (double) num/den;
+    }else{
+    System.out.println("Erro não é permitida nenhuma divisão por 0 ");
+    return 0;
+
+    }
+}
 
     public static void main(String[] args) {
         // Exemplo de uso da classe
@@ -29,5 +42,8 @@
 
         int resultadoMultiplicacao = calculadora.multiplicar(2, 6);
         System.out.println("Resultado da multiplicação: " + resultadoMultiplicacao);
+
+        double resultadoDivisao = calculadora.Dividir(8,2);
+        System.out.println("Resultado da divisão: " + resultadoDivisao);
     }
 }
